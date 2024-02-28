@@ -14,11 +14,7 @@ sudo sed -i "s/ServerActive=127.0.0.1/ServerActive=$ZABBIX_SERVER_IP/" /etc/zabb
 sudo systemctl start zabbix-agent
 sudo systemctl enable zabbix-agent
 sudo systemctl status zabbix-agent
-echo "you have successfully insttalled zabbix agent cheers"
-echo "you have successfully insttalled zabbix agent cheers"
-echo "you have successfully insttalled zabbix agent cheers"
-echo "you have successfully insttalled zabbix agent cheers"
-echo "you have successfully insttalled zabbix agent cheers"
+
 echo "you have successfully insttalled zabbix agent cheers"
 echo "you have successfully insttalled zabbix agent cheers"
 echo "Zabbix Agent installed and configured. It is now communicating with the Zabbix Server at $ZABBIX_SERVER_IP."
